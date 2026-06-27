@@ -234,7 +234,11 @@
             protect, repair, and optimize documents with confidence.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://www.pdfwix.com/">
+            <a
+              class="btn btn-primary"
+              href="https://www.pdfwix.com/"
+              onclick="window.top.location.href = this.href; return false;"
+            >
               Explore Tools
             </a>
             <a class="btn btn-secondary" href="#tools-start">Browse Guides</a>
@@ -712,7 +716,11 @@
               <h2>${tool.title}</h2>
               <p class="description">${tool.description}</p>
               <div class="tool-actions">
-                <a class="btn btn-secondary" href="https://www.pdfwix.com/${tool.slug}">
+                <a
+                  class="btn btn-secondary"
+                  href="https://www.pdfwix.com/${tool.slug}"
+                  onclick="window.top.location.href = this.href; return false;"
+                >
                   Get Tool
                 </a>
               </div>
